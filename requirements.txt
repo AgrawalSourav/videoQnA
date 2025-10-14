@@ -1,0 +1,29 @@
+# Core audio transcription
+faster-whisper==1.2.0
+yt-dlp
+
+# Transcript retrieval
+youtube-transcript-api==1.2.3
+
+# Embeddings
+sentence-transformers
+torch==2.2.0  # compatible with sentence-transformers
+numpy
+scikit-learn>=1.2.2
+huggingface_hub==0.16.4
+
+# Vector search
+faiss-cpu==1.7.4
+
+# Frontend
+streamlit==1.26.0
+tqdm>=4.65.0
+
+# Fix missing dependencies
+nltk>=3.8.1
+packaging>=23.1
+jaraco.context>=4.3.0
+jaraco.text>=3.11.0
+
+# Optional (helps with large audio / Whisper)
+ctranslate2==4.6.0
